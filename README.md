@@ -21,4 +21,5 @@ Testing for Firefox has to be done using a special .xpi extension file, you can'
 
 ## Testing and patching
 I am very unfamiliar with coding in HTML, JS, or CSS because before I was doing shell scripting.
+
 Any help/patches would help because even I can admit this extension sucks.
