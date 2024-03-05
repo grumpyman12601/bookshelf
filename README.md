@@ -32,8 +32,8 @@ I am very unfamiliar with coding in HTML, JS, or CSS because all of my current e
 Any help/patches would help because even I can admit this extension sucks.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-### ISSUE (S) FOR DEVELOPER (S)
-
+## ISSUE (S) FOR DEVELOPER (S)
+### Error #1
 Uncaught (in promise) Error: Could not establish connection. Receiving end does not exist.
 error is in "main.html"
 
@@ -41,3 +41,21 @@ Stack Trace doesn't have an error line besides anonymous function, I am stiil fi
 
 main.html:0 (anonymous function)
 Nothing to see here, move along.
+
+// Error dissapeared when I changed something, couldn't tell you what
+
+
+          
+### Error #2
+main.html
+
+Stack Trace
+
+popup.js:3 (anonymous function)
+
+document.addEventListener("DOMContentLoaded", function() {
+    var newtabButton = document.getElementById("newtab");
+    newtabButton.addEventListener("click", function() {
+ chrome.runtime.sendMessage({message: "openNewWindow"});
+    });
+});
