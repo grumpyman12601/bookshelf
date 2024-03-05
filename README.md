@@ -38,5 +38,6 @@ Uncaught (in promise) Error: Could not establish connection. Receiving end does 
 error is in "main.html"
 
 Stack Trace doesn't have an error line besides anonymous function, I am stiil fixing this.
+
 main.html:0 (anonymous function)
 Nothing to see here, move along.
