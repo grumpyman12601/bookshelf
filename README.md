@@ -5,19 +5,19 @@ I just wanted it public because I'm looking at an internship and I want them to 
 This is an extension made to hide the shelf on ChromeOS devices. It should work on all versions that support desk hiding when a page is displayed on screen.
 This is the 6th itteration, of my project, and all other versions didn't work at all or didn't have permissions, or were too much of a hassle for the average person to set up/maintain.
 
-### What you need
+## What you need
 - The ability to install unpacked extensions
 - Possibly debug skill, read #[Issues](https://github.com/grumpyman12601/bookshelf#issues) for help if the extension doesn't work for you.
 - A Chromebook
 - All 46 ChromeOSomes
 
-## Installation
+# Installation
 1. Download this repository
 2. Enable dev mode on chrome://extensions
 3. Click on the "Load Unpacked" icon
 4. Select the root file directory for the extension, and click open
 
-## Usage
+# Usage
 1. Click on the extension
 2. Click "Open"
 If you run into issues, open an issue report, and I can hopefully help.
@@ -26,13 +26,13 @@ If you run into issues, open an issue report, and I can hopefully help.
 This is still in development, and I don't have any erorrs ouside of the project just not working YET
 
 
-## Testing and patching
+### Testing and patching
 I am very unfamiliar with coding in HTML, JS, or CSS because all of my current experience is in shell scripting.
 
 Any help/patches would help because even I can admit this extension sucks.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-ISSUE (S) FOR DEVELOPER (S)
+### ISSUE (S) FOR DEVELOPER (S)
 
 Uncaught (in promise) Error: Could not establish connection. Receiving end does not exist.
 error is in "main.html"
