@@ -7,7 +7,7 @@ This is the 6th itteration, of my project, and all other versions didn't work at
 
 ### What you need
 - The ability to install unpacked extensions
-- Possibly debug skill, read # Issues for help if the extension doesn't work for you.
+- Possibly debug skill, read #[Issues](https://github.com/grumpyman12601/bookshelf#issues) for help if the extension doesn't work for you.
 - A Chromebook
 - All 46 ChromeOSomes
 
@@ -23,7 +23,7 @@ This is the 6th itteration, of my project, and all other versions didn't work at
 If you run into issues, open an issue report, and I can hopefully help.
 
 ### Issues
-This is still in development, and I don't have any erorrs ouside of the project just not working
+This is still in development, and I don't have any erorrs ouside of the project just not working YET
 
 
 ## Testing and patching
