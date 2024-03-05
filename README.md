@@ -1,9 +1,6 @@
-
-
-
-
 # Bookshelf Beta 0.6.0
-This is bookshelf v6, it's a simple design with minimal installation, just use it like a regular extension.
+This is an extension made to hide the shelf on ChromeOS devices. It should work on all versions that support desk hiding when a page is displayed on screen.
+This is the 6th itteration, of my project, and all other versions didn't work at all or didn't have permissions, or were too much of a hassle for the average person to set up/maintain.
 
 ### What you need
 - The ability to install unpacked extensions
