@@ -9,7 +9,7 @@ This is bookshelf v6, it's a simple design with minimal installation, just use i
 - The ability to install unpacked extensions
 - Possibly debug skill, read # Issues for help if the extension doesn't work for you.
 - A Chromebook
-- All 48 ChromeOSomes
+- All 46 ChromeOSomes
 
 ## Installation
 1. Download this repository
