@@ -1,11 +1,15 @@
 
-# Bookshelf v3 (v2 was horrible, no release will ever go public)
-This is bookshelf v3, it's a much simpler design with minimal installation, just use it like a regular extension.
+
+
+
+# Bookshelf Beta 0.6.0
+This is bookshelf v6, it's a simple design with minimal installation, just use it like a regular extension.
 
 ### What you need
 - The ability to install unpacked extensions
 - Possibly debug skill, read # Issues for help if the extension doesn't work for you.
-- ChromeOS version v115 for tab floating
+- A Chromebook
+- All 48 ChromeOSomes
 
 ## Installation
 1. Download this repository
@@ -16,21 +20,10 @@ This is bookshelf v3, it's a much simpler design with minimal installation, just
 ## Usage
 1. Click on the extension
 2. Click "Open"
-3. Hold your mouse over the tabs icon for the window that opened, until a dropdown menu appears, select "Float"
-5. Click on the "Move Window" button on the extension
+If you run into issues, open an issue, and I can hopefully help.
 
-// THE WINDOW MAY NOT MOVE FULLY OFFSCREEN, IF THIS HAPPENS, LOOK AT #Issues
 ### Issues
-Some issues that you may encounter is that the window doesn't move fully offscreen, to fix this just go find the movetab.js file and switch the X and Y variables to farther away or closer depending on your device:
-
-
-function moveWindow() {
-
-  // Change as needed, will not break. Example (100, 100)
-  
-  window.moveTo(X, Y);
-  
-}
+This is still in development, and I don't have any erorrs ouside of the project just not working
 
 
 ## Testing and patching
@@ -39,13 +32,11 @@ I am very unfamiliar with coding in HTML, JS, or CSS because all of my current e
 Any help/patches would help because even I can admit this extension sucks.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-ISSUES FOR DEVELOPER (S)
-Move Window button doesn't work
+ISSUE (S) FOR DEVELOPER (S)
 
-Refused to execute inline script because it violates the following Content Security Policy directive: "script-src 'self'". Either the 'unsafe-inline' keyword, a hash ('sha256-zPfYWQvzeOa6U9LKMTnTy8OrZHmtWidneiXht27Up/E='), or a nonce ('nonce-...') is required to enable inline execution.
-Context
-popup.html
-Stack Trace
-popup.html:24 (anonymous function)
+Uncaught (in promise) Error: Could not establish connection. Receiving end does not exist.
+error is in "main.html"
 
-<script>window.name = '2';</script>
+Stack Trace doesn't have an error line besides anonymous function, I am stiil fixing this.
+main.html:0 (anonymous function)
+Nothing to see here, move along.
