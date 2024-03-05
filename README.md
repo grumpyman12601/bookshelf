@@ -20,7 +20,7 @@ This is bookshelf v6, it's a simple design with minimal installation, just use i
 ## Usage
 1. Click on the extension
 2. Click "Open"
-If you run into issues, open an issue, and I can hopefully help.
+If you run into issues, open an issue report, and I can hopefully help.
 
 ### Issues
 This is still in development, and I don't have any erorrs ouside of the project just not working
