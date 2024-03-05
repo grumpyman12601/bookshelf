@@ -1,4 +1,4 @@
-# THIS EXTENSION DOES NOT CURRENTLY WORK ON CHROMEOS DEVICES. AT ALL.
+# THIS EXTENSION DOES NOT CURRENTLY WORK ON CHROME OS DEVICES. AT ALL.
 I just wanted it public because I'm looking at an internship and I want them to review my projects.
 
 # Bookshelf Beta 0.6.0
