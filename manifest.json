@@ -1,12 +1,14 @@
 {
   "manifest_version": 3,
   "name": "bookshelf",
-  "description": "Simple bookshelf hider for chromeOS",
+  "description": "Hides your bookshelf for a clean desktop",
   "version": "1.0",
+  "permissions": ["tabs", "offscreen", "activeTab", "scripting"],
   "action": {
-    "default_popup": "test.html",
-    "default_icon": "icon.png"
+    "default_popup": "main.html",
+    "default_icon": "icon.svg"
+  },
+  "background": {
+    "service_worker": "background.js"
   }
-      "permissions": ["offscreen", "storage", "unlimitedStorage", "tabs", "activeTab", "tabHide"]
-
 }
