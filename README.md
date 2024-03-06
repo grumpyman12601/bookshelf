@@ -1,6 +1,3 @@
-# THIS EXTENSION DOES NOT CURRENTLY WORK ON CHROME OS DEVICES. AT ALL.
-I just wanted it public because I'm looking at an internship and I want them to review my projects.
-
 # Bookshelf Beta 0.6.0
 This is an extension made to hide the shelf on ChromeOS devices. It should work on all versions that support desk hiding when a page is displayed on screen.
 This is the 6th itteration, of my project, and all other versions didn't work at all or didn't have permissions, or were too much of a hassle for the average person to set up/maintain.
@@ -8,7 +5,7 @@ This is the 6th itteration, of my project, and all other versions didn't work at
 ## What you need
 - The ability to install unpacked extensions
 - Possibly debug skill, read #[Issues](https://github.com/grumpyman12601/bookshelf#issues) for help if the extension doesn't work for you.
-- A Chromebook
+- A Chromebook running at least v115 for float mode
 - All 46 ChromeOSomes
 
 # Installation
@@ -19,7 +16,10 @@ This is the 6th itteration, of my project, and all other versions didn't work at
 
 # Usage
 1. Click on the extension
-2. Click "Open"
+2. Click "Start"
+3. Hold your mouse over the enlarge tab button until a dropdown menu comes up, select float, and move the icon to the corner of your screen.
+
+
 If you run into issues, open an issue report, and I can hopefully help.
 
 ### Issues
@@ -34,28 +34,4 @@ Any help/patches would help because even I can admit this extension sucks.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## ISSUE (S) FOR DEVELOPER (S)
 ### Error #1
-Uncaught (in promise) Error: Could not establish connection. Receiving end does not exist.
-error is in "main.html"
-
-Stack Trace doesn't have an error line besides anonymous function, I am stiil fixing this.
-
-main.html:0 (anonymous function)
-Nothing to see here, move along.
-
-// Error dissapeared when I changed something, couldn't tell you what
-
-
-          
-### Error #2
-main.html
-
-Stack Trace
-
-popup.js:3 (anonymous function)
-
-document.addEventListener("DOMContentLoaded", function() {
-    var newtabButton = document.getElementById("newtab");
-    newtabButton.addEventListener("click", function() {
- chrome.runtime.sendMessage({message: "openNewWindow"});
-    });
-});
+The tab still shows up, but there is no way to fix this, unless I add a move button that moves it offscreen more to avoid latching to the half-page display option. This will not fix the problem but just make it less apparent. As far as I know unless you use firefox it's impossible to completely hide a tab.
