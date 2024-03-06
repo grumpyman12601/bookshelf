@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "bookshelf",
   "description": "Hides your bookshelf for a clean desktop",
-  "version": "1.0",
+  "version": "0.6.0",
   "permissions": ["tabs", "offscreen", "activeTab", "scripting"],
   "action": {
     "default_popup": "main.html",
