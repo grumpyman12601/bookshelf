@@ -23,7 +23,7 @@ This is the 6th itteration, of my project, and all other versions didn't work at
 If you run into issues, open an issue report, and I can hopefully help.
 
 ### Issues
-This is still in development, and I don't have any erorrs ouside of the project just not working YET
+This is still in development, and it's not perfect. But I'm actively patching this to add controls and make the window less visible.
 
 
 ### Testing and patching
@@ -34,4 +34,8 @@ Any help/patches would help because even I can admit this extension sucks.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## ISSUE (S) FOR DEVELOPER (S)
 ### Error #1
-The tab still shows up, but there is no way to fix this, unless I add a move button that moves it offscreen more to avoid latching to the half-page display option. This will not fix the problem but just make it less apparent. As far as I know unless you use firefox it's impossible to completely hide a tab.
+The tab still shows up, but there is no way to fix this, unless I add a move button that moves it offscreen more to avoid latching to the half-page display option. This will not fix the problem but just make it less apparent. As far as I know unless you use firefox it's impossible to completely hide a tab while still displaying it.
+
+
+For it to be perfect you would have to install Firefox on crostini, make a brand new extension using window.hide(), and have the user of the extension launch Firefox and activate the extension any time they need to.
+Another convienience for firefox is that, while running in crostini there is no x button to exit out of the page, adding potential to a 100% invisible page.
