@@ -1,11 +1,12 @@
 # Bookshelf Beta 0.6.0
-This is an extension made to hide the shelf on ChromeOS devices. It should work on all versions that support desk hiding when a page is displayed on screen.
-This is the 6th itteration, of my project, and all other versions didn't work at all or didn't have permissions, or were too much of a hassle for the average person to set up/maintain.
+This is an extension made to hide the shelf on ChromeOS devices. It should work on all versions of ChromeOS that support desk hiding when a page is displayed on screen.
+Useful while using LivePaper to get a cleaner desktop enviroment.
+Install Livepaper [HERE](https://github.com/supechicken/ChromeOS-LivePaper)
 
 ## What you need
 - The ability to install unpacked extensions
 - Possibly debug skill, read #[Issues](https://github.com/grumpyman12601/bookshelf#issues) for help if the extension doesn't work for you.
-- A Chromebook running at least v115 for float mode (optional but VERY important so the page doesn't stop displaying)
+- A Chromebook running at least v115 for float mode
 - All 46 ChromeOSomes
 
 # Installation
@@ -23,8 +24,8 @@ This is the 6th itteration, of my project, and all other versions didn't work at
 If you run into issues, open an issue report, and I can hopefully help.
 
 ### Issues
-This is still in development, and it's not perfect. But I'm actively patching this to add controls and make the window less visible.
-
+Tab can't dissapear unless you use Firefox and the window.hide() function.
+window.close() is an error that pops up every time you use an extension, it's just an unsafe hash and I'm planning on reusing that line of code and didn't feel like republishing it before I add new features.
 
 ### Testing and patching
 I am very unfamiliar with coding in HTML, JS, or CSS because all of my current experience is in shell scripting.
@@ -34,8 +35,4 @@ Any help/patches would help because even I can admit this extension sucks.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## ISSUE (S) FOR DEVELOPER (S)
 ### Error #1
-The tab still shows up, but there is no way to fix this, unless I add a move button that moves it offscreen more to avoid latching to the half-page display option. This will not fix the problem but just make it less apparent. As far as I know unless you use firefox it's impossible to completely hide a tab while still displaying it.
-
-
-For it to be perfect you would have to install Firefox on crostini, make a brand new extension using window.hide(), and have the user of the extension launch Firefox and activate the extension any time they need to.
-Another convienience for firefox is that, while running in crostini there is no x button to exit out of the page, adding potential to a 100% invisible page.
+The tab still shows up, but there is no way to fix this, unless I add a move button that moves it offscreen more to avoid latching to the half-page display option. This will not fix the problem but just make it less apparent. As far as I know unless you use firefox it's impossible to completely hide a tab.
