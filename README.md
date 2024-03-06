@@ -5,7 +5,7 @@ This is the 6th itteration, of my project, and all other versions didn't work at
 ## What you need
 - The ability to install unpacked extensions
 - Possibly debug skill, read #[Issues](https://github.com/grumpyman12601/bookshelf#issues) for help if the extension doesn't work for you.
-- A Chromebook running at least v115 for float mode
+- A Chromebook running at least v115 for float mode (optional but VERY important so the page doesn't stop displaying)
 - All 46 ChromeOSomes
 
 # Installation
