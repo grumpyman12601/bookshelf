@@ -6,7 +6,7 @@ Install Livepaper [HERE](https://github.com/supechicken/ChromeOS-LivePaper)
 ## What you need
 - The ability to install unpacked extensions
 - Possibly debug skill, read #[Issues](https://github.com/grumpyman12601/bookshelf#issues) for help if the extension doesn't work for you.
-- A Chromebook running at least v115 for float mode
+- A Chromebook
 - All 46 ChromeOSomes
 
 # Installation
@@ -18,8 +18,9 @@ Install Livepaper [HERE](https://github.com/supechicken/ChromeOS-LivePaper)
 # Usage
 1. Click on the extension
 2. Click "Start"
-3. Hold your mouse over the enlarge tab button until a dropdown menu comes up, select float, and move the icon to the corner of your screen.
+3. Move the icon to the corner of your screen, just enough that the window is 90% offscreen. This will work without float mode.
 
+Tip: If you grab the last pixel of the tab, you can move it farther without the window latching onto the half icon.
 
 If you run into issues, open an issue report, and I can hopefully help.
 
