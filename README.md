@@ -22,6 +22,8 @@ Install Livepaper [HERE](https://github.com/supechicken/ChromeOS-LivePaper)
 
 Tip: If you grab the last pixel of the tab, you can move it farther without the window latching onto the half icon.
 
+Super extra cool tip: Change the icon.svg and icon.png file in the file directory to whatever you want it to be, and you can customize the little icon in the corner of your screen to something cooler.
+
 If you run into issues, open an issue report, and I can hopefully help.
 
 ### Issues
