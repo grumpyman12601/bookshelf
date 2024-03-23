@@ -1,7 +1,11 @@
 # Bookshelf Beta 0.6.0
 This is an extension made to hide the shelf on ChromeOS devices. It should work on all versions of ChromeOS that support desk hiding when a page is displayed on screen.
-Useful while using LivePaper to get a cleaner desktop enviroment.
+
+Livepaper is another extension that allows you to have live wallpapers on ChromeOS.
+
 Install Livepaper [HERE](https://github.com/supechicken/ChromeOS-LivePaper)
+
+These two extensions work very well together to clean up your desktop enviroment, and I use both 24/7.
 
 ## What you need
 - The ability to install unpacked extensions
@@ -19,8 +23,8 @@ Install Livepaper [HERE](https://github.com/supechicken/ChromeOS-LivePaper)
 Make sure you have your shelf set to "Autohide shelf" so the shelf hides when a tab is onscreen, even if it isn't fullscreened.
 1. Click on the extension
 2. Click "Start"
-3. Move the icon to the corner of your screen, just enough that the window is 90% offscreen. This will work without float mode.
-4. On LivePaper flip the "Stop live wallpaper when window focused" switch. This is because this extension uses a tab that's always on your screen to keep the taskbar hidden.
+3. Move the icon to the corner of your screen, just enough that the window is 90% offscreen. This will work without float mode
+4. On LivePaper flip the "Stop live wallpaper when window focused" switch. This is because this extension uses a tab that's always on your screen to keep the taskbar hidden
 
 Tip: If you grab the last pixel of the tab, you can move it farther without the window latching onto the half icon.
 
@@ -42,6 +46,6 @@ I am very unfamiliar with coding in HTML, JS, or CSS because all of my current e
 Any help/patches would help because even I can admit this extension sucks.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-## ISSUE (S) FOR DEVELOPER (S)
+## ISSUE/S FOR DEVELOPER (S)
 ### Error #1
 The tab still shows up, but there is no way to fix this, unless I add a move button that moves it offscreen more to avoid latching to the half-page display option. This will not fix the problem but just make it less apparent. As far as I know unless you use firefox it's impossible to completely hide a tab.
