@@ -16,9 +16,11 @@ Install Livepaper [HERE](https://github.com/supechicken/ChromeOS-LivePaper)
 4. Select the root file directory for the extension, and click open
 
 # Usage
+Make sure you have your shelf set to "Autohide shelf" so the shelf hides when a tab is onscreen, even if it isn't fullscreened.
 1. Click on the extension
 2. Click "Start"
 3. Move the icon to the corner of your screen, just enough that the window is 90% offscreen. This will work without float mode.
+4. On LivePaper flip the "Stop live wallpaper when window focused" switch. This is because this extension uses a tab that's always on your screen to keep the taskbar hidden.
 
 Tip: If you grab the last pixel of the tab, you can move it farther without the window latching onto the half icon.
 
