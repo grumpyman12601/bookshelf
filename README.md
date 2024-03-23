@@ -28,6 +28,8 @@ Super extra cool tip: Change the icon.svg and icon.png file in the file director
 
 ![bookshelf in use](https://github.com/grumpyman12601/bookshelf/assets/101584530/b001ab54-f868-4738-8ced-e87a7a362919)
 
+Download my wallpaper [HERE](https://www.artstation.com/artwork/GXwZgz)
+
 If you run into issues, open an issue report, and I can hopefully help.
 
 ### Issues
