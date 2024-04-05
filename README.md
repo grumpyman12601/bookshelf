@@ -28,7 +28,10 @@ Make sure you have your shelf set to "Autohide shelf" so the shelf hides when a 
 
 Tip: If you grab the last pixel of the tab, you can move it farther without the window latching onto the half icon.
 
-Super extra cool tip: Change the icon.svg and icon.png file in the file directory to whatever you want it to be, and you can customize the little icon in the corner of your screen to something cooler.
+Super extra cool tip: Change the icon.png file in the file directory to whatever you want it to be, and you can customize the little icon in the corner of your screen to something cooler, like the "invisible" icon below
+
+Save this image: ![Invisibleicon](https://github.com/grumpyman12601/bookshelf/assets/101584530/f3db1357-bb05-4fed-b6fa-be78c3d4380b)
+
 
 ![bookshelf in use](https://github.com/grumpyman12601/bookshelf/assets/101584530/b001ab54-f868-4738-8ced-e87a7a362919)
 
