@@ -1,4 +1,4 @@
-# Bookshelf Beta 0.6.0
+# Bookshelf
 This is an extension made to hide the shelf on ChromeOS devices. It should work on all versions of ChromeOS that support desk hiding when a page is displayed on screen.
 
 Livepaper is another extension that allows you to have live wallpapers on ChromeOS.
