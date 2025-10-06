@@ -21,7 +21,6 @@ These two extensions work very well together to clean up your desktop enviroment
 - The ability to install unpacked extensions
 - Possibly debug skill, read #[Issues](https://github.com/grumpyman12601/bookshelf#issues) for help if the extension doesn't work for you.
 - A Chromebook or Windows device
-- All 46 ChromeOSomes
 
 # Installation
 1. Download this repository and unpack it
@@ -36,7 +35,7 @@ These two extensions work very well together to clean up your desktop enviroment
 2. Click on the extension
 3. Click "Start"
 4. Move the icon to the corner of your screen, just enough that the window is 90% offscreen. This will work without float mode
-5. On LivePaper flip the "Stop live wallpaper when window focused" switch. This is because this extension uses a tab that's always on your desktop to keep the taskbar hidden
+5. On LivePaper flip the "Stop live wallpaper when window focused" switch. You have to do this because bookshelf works by displaying a tab that's always on your desktop to keep the taskbar hidden.
 
 Tip: If you grab the last pixel of the tab, you can move it farther without the window latching onto the half icon.
 When you're done, it should look like this:
@@ -47,7 +46,7 @@ When you're done, it should look like this:
 ### Windows
 1. Right click your taskbar, and go into Taskbar Settings
 2. Click on "Taskbar Behavior"
-3. Enable "Automaticall Hide The Taskbar"
+3. Enable "Automatically Hide The Taskbar"
 4. Click on the extension icon
 5. Click "Start"
 6. Click on the icon on the window it opens
