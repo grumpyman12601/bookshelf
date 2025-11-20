@@ -3,7 +3,7 @@
 [![Github All Releases](https://img.shields.io/github/downloads/grumpyman12601/bookshelf/total.svg)]()
 
 
-Bookshelf is an extension made to hide the shelf on Windows 10/11 and ChromeOS. It works on all versions of both.
+Bookshelf is an extension made to hide the shelf on ChromeOS and Windows 10/11. It works on all versions of both.
 
 
 On Windows, it takes up a single pixel in the corner of your screen.
@@ -24,7 +24,7 @@ These two extensions work very well together to clean up your desktop enviroment
 
 # Installation
 1. Download this repository and unpack it
-2. I reccomended to put it somewhere the directory isn't going to get deleted on accident
+2. I recommend to put it somewhere the directory isn't going to get deleted on accident
 3. Enable dev mode on chrome://extensions
 4. Click on the "Load Unpacked" icon
 5. Select the root file directory for the extension, and click open
@@ -37,7 +37,7 @@ These two extensions work very well together to clean up your desktop enviroment
 4. Move the icon to the corner of your screen, just enough that the window is 90% offscreen. This will work without float mode
 5. On LivePaper flip the "Stop live wallpaper when window focused" switch. You have to do this because bookshelf works by displaying a tab that's always on your desktop to keep the taskbar hidden.
 
-Tip: If you grab the last pixel of the tab, you can move it farther without the window latching onto the half icon.
+Tip: If you grab the last pixel of the tab, you can move it farther without the window latching automatically onto the half screen display.
 When you're done, it should look like this:
 
 ![bookshelf on ChromeOS](https://github.com/grumpyman12601/bookshelf/assets/101584530/b001ab54-f868-4738-8ced-e87a7a362919)
@@ -47,11 +47,12 @@ When you're done, it should look like this:
 1. Right click your taskbar, and go into Taskbar Settings
 2. Click on "Taskbar Behavior"
 3. Enable "Automatically Hide The Taskbar"
-4. Click on the extension icon
-5. Click "Start"
-6. Click on the icon on the window it opens
-7. Select "Move"
-8. Use your arrow keys to move the window into the bottom right of your screen
+ if this doesn't hide the taskbar:
+5. Click on the extension icon
+6. Click "Start"
+7. Click on the icon on the window it opens
+8. Select "Move"
+9. Use your arrow keys to move the window into the bottom right of your screen
 
 When you're done, it should look like this:
 
