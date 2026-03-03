@@ -15,7 +15,6 @@ Livepaper is another extension that allows you to have live wallpapers on Chrome
 
 Install Livepaper [HERE](https://github.com/supechicken/ChromeOS-LivePaper)
 
-These two extensions work very well together to clean up your desktop enviroment, and I use both 24/7.
 #
 ## What you need
 - The ability to install unpacked extensions
@@ -60,11 +59,12 @@ When you're done, it should look like this:
 
 
 
-Super extra cool tip: Change the icon.png file in the file directory to whatever you want it to be, and you can customize the little icon in the corner of your screen to something cooler, like the "invisible" icon below
+Super extra cool tip: To change the extension icon, replace icon.png file in the file directory to whatever you want it to be.
+You can customize the extension icon in the corner of your screen to something cooler, like the "invisible" icon below.
 
 Save this image: ![Invisibleicon](https://github.com/grumpyman12601/bookshelf/assets/101584530/f3db1357-bb05-4fed-b6fa-be78c3d4380b)
 
-If you run into issues, open an issue report, and I can hopefully help.
+If you run into issues, open an issue report, and I can help.
 
 ### Issues
 Tab can't completely dissapear unless you use Firefox and the window.hide() function.
@@ -79,4 +79,5 @@ Any help/patches would help because even I can admit this extension sucks.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## ISSUE/S FOR DEVELOPER (S)
 ### Error #1
-The tab still shows up, but there is no way to fix this, unless I add a move button that moves it offscreen more to avoid latching to the half-page display option. This will not fix the problem but just make it less apparent. As far as I know unless you use firefox it's impossible to completely hide a tab.
+The tab still shows up. There is no way to fix this unless I add a move button that moves it offscreen more to avoid latching to the half-page display option. This will not fix the problem but just make it less apparent.
+Unless you use firefox it's impossible to completely hide a tab. Even then, I see it as a security risk.
